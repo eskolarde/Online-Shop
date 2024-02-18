@@ -1,0 +1,87 @@
+Login.css
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*--------------------Background--------------------*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(Assets/BackgroundMain.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+/*--------------------Login form--------------------*/
+.wrapper {
+    position: absolute;
+    width: 700px;
+    height: 350px;
+    background: url(Assets/LoginBase.png);
+    background-size: cover;
+    box-shadow: 1px 12px 11px 1px rgba(red, green, blue, alpha);
+    border-radius: 3%;
+    opacity: 90%;
+}
+
+.formlogin {
+    position: relative;
+    padding-left: 35px;
+
+}
+
+.formlogin h1{
+    font-size: 3em;
+    padding-bottom: 50px;
+}
+
+input {
+    height: 40px;
+    width: 500px;
+    font-size: 20px;
+}
+
+ #email {
+    margin-bottom: 15px;
+}
+
+#email, #pass {
+    height: 35px;
+    width: 349px;
+    border-radius: 5px;
+    
+}
+
+.register{
+    margin-bottom: 15px;
+}
+
+.button {
+    height: 30px;
+    width: 350px;
+    background: rgb(89, 89, 206);
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+}
+/*-------------Header---------------*/
+.ccclogo{
+    position: fixed;
+    height: 13%;
+    width: auto;
+    top: 2%;
+    left: 1%;
+}
+.title{
+    position: fixed;
+    height: 10%;
+    width: auto;
+    top: 4%;
+    left: 8%;
+}

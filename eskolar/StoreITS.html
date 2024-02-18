@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ITS store</title>
+    <link rel="stylesheet" href="StoreITS.css">
+    <link rel="stylesheet" href="Header.css">
+    <script src="StoreITS.js"></script>
+</head>
+<body>
+<!--Headers----------------------------------------->
+    <nav>
+        <div class="banner">
+            <div class="bann">
+                <div class="navbar"> 
+                    <ul>
+                    <li><a href="Homepage.html" class="nav-link">  Homepage</a></li>
+                    <li><a class= "active" href="StoreITS.html" class="nav-link">Information Technology</a></li>
+                    <li><a href="StoreCS.html" class="nav-link">Computer Science</a></li>
+                    <li><a href="About.html" class="nav-link">About</a></li> 
+                    </ul>
+                </div>
+            </div>
+       </div>
+    </nav> 
+    <img class="ccclogo" src="Assets/CCCLogo.png" alt="">
+    <img class="title" src="Assets/Title.png" alt=""> 
+    <a href="Login.html"><img class="profile" src="Assets/Profile.png" alt=""></a>
+    <img class="cart" src="Assets/Cart.png" onclick="show()"/>
+<!--Contents----------------------------------------->
+<div class= "content">     
+    <img class="kitsuneblack" src="Assets/Kitsune Tshirt Black.png" onclick="buy()"/>
+    <img class="kitsunewhite" src="Assets/Kitsune Tshirt White.png" onclick="buy1()"/>
+</div>
+
+<div id="box">
+    <img id="item" src="Assets/Kitsune Tshirt Black.png" alt="">
+    <img id="cross" src="Assets/Cross.png" onclick="remove()">
+    <li><a id="price">P350</a></li>
+    <li><a id="amount">0</a></li>
+</div>
+
+<div id="box1">
+    <img id="item1" src="Assets/Kitsune Tshirt White.png" alt="">
+    <img id="cross1" src="Assets/Cross.png" onclick="remove1()">
+    <li><a id="price1">P350</a></li>
+    <li><a id="amount1">0</a></li>
+</div>
+<a href="Payment.html"><button id="checkout" type="button">Checkout</button></a>
+</body>
+</html> 
